@@ -1,0 +1,51 @@
+.card-1 {
+    padding: 160px;
+    position: relative;
+}
+
+.card-1__heading {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+}
+
+.card-1__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6F7CB2;
+    width: 540px;
+    margin-bottom: 80px;
+}
+
+.card-1__info {
+    display: inline-block;
+}
+
+.card-1__info__icon {
+    font-size: 50px;
+}
+
+.card-1__info__heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #091133;
+}
+
+.card-1__info__description {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+    width: 255px;
+}
+
+.card-1__image {
+    position: absolute;
+    top: 0;
+    right: 160px;
+    width: 440px;
+    height: 400px;
+}

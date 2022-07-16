@@ -1,0 +1,12 @@
+body {
+    background-color: #53c8e9;
+    padding: 20px 40px;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 50px;
+}

@@ -1,0 +1,53 @@
+.brand-main-info {
+    padding: 160px;
+    position: relative;
+}
+
+.brand-main-info__heading {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 66px;
+    letter-spacing: 1px;
+    color: #091133;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.brand-main-info__description {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #505F98;
+    width: 540px;
+}
+
+.brand-main-info__button-container {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.brand-main-info__button-container__purchase {
+    background: #111B47;
+    border-radius: 2px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    border: none;
+}
+
+.brand-main-info__button-container__learn-more {
+    border: 2px solid #091133;
+    border-radius: 2px;
+    line-height: 26px;
+    text-align: center;
+    padding: 4px 30px;
+    color: #091133;
+}
+
+.brand-main-info__image {
+    position: absolute;
+    top: 160px;
+    right: 160px;
+    width: 540px;
+    height: 500px;
+}

@@ -1,0 +1,73 @@
+.contact-form {
+    color: #fafafa;
+    width: 100%;
+}
+
+.contact-form__email__input {
+    display: block;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fafafa;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form__email__input::placeholder {
+    color: #bdfeff;
+}
+
+.contact-form__email__label {
+    display: block;
+    margin-top: 20px;
+}
+
+.contact-form__name__input {
+    display: block;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fafafa;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form__name__input::placeholder {
+    color: #bdfeff;
+}
+
+
+.contact-form__name__label {
+    display: block;
+    margin-top: 20px;
+
+}
+
+.contact-form__message__label {
+    display: block;
+    margin-top: 20px;
+}
+
+.contact-form__message__textarea {
+    display: block;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #fafafa;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    color: #bdfeff;
+    font-family: sans-serif;
+
+}
+
+.contact-form__message__textarea::placeholder {
+    color: #bdfeff;
+}
+
+.contact-form__submit-button {
+    width: 92%;
+    padding: 8px;
+    border: 0;
+    text-transform: uppercase;
+}
