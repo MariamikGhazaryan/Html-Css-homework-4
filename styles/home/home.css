@@ -1,3 +1,12 @@
+@import "header/header.css";
+@import "main/brand-main-info.css";
+@import "main/card-1.css";
+@import "main/card-2.css";
+@import "main/card-3.css";
+@import "main/card-4.css";
+@import "main/price.css";
+@import "footer/footer.css";
+
 body {
     margin: 0;
     box-sizing: border-box;
