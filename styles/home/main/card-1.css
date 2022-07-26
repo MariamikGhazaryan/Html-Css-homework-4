@@ -1,6 +1,7 @@
 .card-1 {
-    padding: 160px;
-    position: relative;
+    margin: 160px;
+    display: flex;
+    column-gap: 200px;
 }
 
 .card-1__heading {
@@ -43,9 +44,6 @@
 }
 
 .card-1__image {
-    position: absolute;
-    top: 0;
-    right: 160px;
     width: 440px;
     height: 400px;
 }

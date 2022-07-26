@@ -1,12 +1,7 @@
 .card-4 {
-    position: relative;
-    padding: 200px;
-}
-
-.card-4 div {
-    position: absolute;
-    top: 0;
-    right: 150px;
+    display: flex;
+    column-gap: 200px;
+    margin: 200px;
 }
 
 .card-4__heading {
@@ -36,9 +31,6 @@
 }
 
 .card-4__image {
-    position: absolute;
-    top: 0;
-    left: 160px;
     width: 350px;
     height: 250px;
 }

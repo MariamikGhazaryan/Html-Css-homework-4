@@ -1,6 +1,6 @@
 .brand-main-info {
-    padding: 160px;
-    position: relative;
+    margin: 160px;
+    display: flex;
 }
 
 .brand-main-info__heading {
@@ -45,9 +45,6 @@
 }
 
 .brand-main-info__image {
-    position: absolute;
-    top: 160px;
-    right: 160px;
     width: 540px;
     height: 500px;
 }

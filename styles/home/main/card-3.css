@@ -1,12 +1,7 @@
 .card-3 {
-    position: relative;
-    padding: 200px;
-}
-
-.card-3 div {
-    position: absolute;
-    top: 0;
-    right: 150px;
+    display: flex;
+    column-gap: 200px;
+    margin: 200px;
 }
 
 .card-3__heading {
@@ -26,9 +21,6 @@
 }
 
 .card-3__image {
-    position: absolute;
-    top: 0;
-    left: 160px;
     width: 350px;
     height: 250px;
 }
