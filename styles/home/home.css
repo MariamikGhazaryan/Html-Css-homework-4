@@ -14,5 +14,7 @@ body {
 
 main, header {
     font: normal 400 14px/24px 'Roboto', sans-serif;
+    width: calc(100% - 400px);
+    margin: 0 auto;
 }
 

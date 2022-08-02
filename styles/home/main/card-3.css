@@ -1,7 +1,6 @@
 .card-3 {
     display: flex;
     column-gap: 200px;
-    margin: 200px;
 }
 
 .card-3__heading {
