@@ -1,36 +1,24 @@
 .header {
-    position: fixed;
-    z-index: 10;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .header-navigation {
-    display: inline-block;
+    width: 30%;
 }
 
 .header-navigation-list {
-    display: inline-block;
-}
-
-.header-navigation-list::marker {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
     list-style-type: none;
 }
 
-.header-navigation-list__item {
-    display: inline-block;
-    margin-top: 18px;
-    margin-right: 40px;
-}
-
-.header-navigation-list__item:first-child {
-    margin-left: 165px;
-}
-
-.header-navigation-list__item:last-child {
-    margin-right: 230px;
-}
-
 .header-navigation-list__item_link {
-    color: #505F98;
+    color: #505f98;
     text-decoration: none;
 }
 
@@ -41,21 +29,17 @@
 
 .header-title {
     font-weight: 900;
-    font-size: 26px;
-    line-height: 38px;
-    color: #37447E;
-    margin-right: 355px;
+    font-size: 1.5rem;
+    color: #37447e;
 }
 
 .header-buy-now {
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
-    text-align: center;
-    color: #FFFFFF;
-    background: #111B47;
-    border-radius: 2px;
+    padding: 4px;
     width: 160px;
     border: none;
-    padding: 4px;
+    border-radius: 2px;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    background: #111b47;
 }

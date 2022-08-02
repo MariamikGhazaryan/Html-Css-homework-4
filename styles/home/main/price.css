@@ -21,11 +21,11 @@
     color: #6F7CB2;
 }
 
-.price-section__price {
+.price-section-price {
     margin: 50px 0;
 }
 
-.price-section__price__money {
+.price-section-price__money {
     font-weight: 500;
     font-size: 50px;
     line-height: 66px;
@@ -35,7 +35,7 @@
 
 }
 
-.price-section__price__description {
+.price-section-price__description {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
